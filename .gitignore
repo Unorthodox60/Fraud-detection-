@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+.env
+.venv/
+
+# SQLite
+*.db
+*.sqlite3
+
+# Models (Optional, but good to ignore if large)
+# model.pkl
+# explainer.pkl
+
+# OS Files
+.DS_Store
+
+# IDEs
+.vscode/
+.idea/
+
+# Large Datasets
+creditcard.csv
+*.csv
