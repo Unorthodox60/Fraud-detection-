@@ -41,8 +41,7 @@ FraudShield AI is a full-stack, AI-powered financial fraud detection system desi
    ```
 4. Start the FastAPI server:
    ```bash
-   cd app
-   uvicorn main:app --reload --port 8000
+   uvicorn app.main:app --reload --port 8000
    ```
    *The API will be available at http://localhost:8000/docs*
 
